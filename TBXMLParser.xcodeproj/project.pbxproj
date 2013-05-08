@@ -18,6 +18,10 @@
 		EF05C43A173A2447006F822F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF05C439173A2447006F822F /* Default-568h@2x.png */; };
 		EF05C43D173A2447006F822F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF05C43C173A2447006F822F /* ViewController.m */; };
 		EF05C440173A2447006F822F /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF05C43E173A2447006F822F /* ViewController.xib */; };
+		EF05C44F173A265E006F822F /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = EF05C44B173A265E006F822F /* README.markdown */; };
+		EF05C450173A265E006F822F /* TBXML-Code in Resources */ = {isa = PBXBuildFile; fileRef = EF05C44C173A265E006F822F /* TBXML-Code */; };
+		EF05C451173A265E006F822F /* TBXML-Headers in Resources */ = {isa = PBXBuildFile; fileRef = EF05C44D173A265E006F822F /* TBXML-Headers */; };
+		EF05C452173A265E006F822F /* TBXML-Support in Resources */ = {isa = PBXBuildFile; fileRef = EF05C44E173A265E006F822F /* TBXML-Support */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +41,10 @@
 		EF05C43B173A2447006F822F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		EF05C43C173A2447006F822F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EF05C43F173A2447006F822F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		EF05C44B173A265E006F822F /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
+		EF05C44C173A265E006F822F /* TBXML-Code */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "TBXML-Code"; sourceTree = "<group>"; };
+		EF05C44D173A265E006F822F /* TBXML-Headers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "TBXML-Headers"; sourceTree = "<group>"; };
+		EF05C44E173A265E006F822F /* TBXML-Support */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "TBXML-Support"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +91,10 @@
 		EF05C429173A2447006F822F /* TBXMLParser */ = {
 			isa = PBXGroup;
 			children = (
+				EF05C44B173A265E006F822F /* README.markdown */,
+				EF05C44C173A265E006F822F /* TBXML-Code */,
+				EF05C44D173A265E006F822F /* TBXML-Headers */,
+				EF05C44E173A265E006F822F /* TBXML-Support */,
 				EF05C432173A2447006F822F /* AppDelegate.h */,
 				EF05C433173A2447006F822F /* AppDelegate.m */,
 				EF05C43B173A2447006F822F /* ViewController.h */,
@@ -163,6 +175,10 @@
 				EF05C438173A2447006F822F /* Default@2x.png in Resources */,
 				EF05C43A173A2447006F822F /* Default-568h@2x.png in Resources */,
 				EF05C440173A2447006F822F /* ViewController.xib in Resources */,
+				EF05C44F173A265E006F822F /* README.markdown in Resources */,
+				EF05C450173A265E006F822F /* TBXML-Code in Resources */,
+				EF05C451173A265E006F822F /* TBXML-Headers in Resources */,
+				EF05C452173A265E006F822F /* TBXML-Support in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
